@@ -20,7 +20,7 @@ output "public_subnet_az1_id" {
 output "public_subnet_az2_id" {
   value = aws_subnet.public_subnet_az2.id
 }
-# export private app subnet az2
+# export private app subnet az1
 output "private_app_subnet_az1_id" {
   value = aws_subnet.private_app_subnet_az1.id
 }
